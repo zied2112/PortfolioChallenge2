@@ -30,6 +30,54 @@
   background-color: blue;
 }
 .section1 {
-  height: 200vh;
+  height: 37vh;
+  padding: 10rem 2rem;
+  text-align: center;
+  font-weight: 200;
   background-color: #212224;
 }
+
+.section1 > h1{
+  color: aliceblue;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 6rem;
+}
+
+.section1 > p {
+  color: #be3144;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.section2 {
+  height: 200vh;
+  padding: 10rem 2rem;
+  background: var(--main-blue);
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+.projects {
+  max-width: 640px;
+  font-size: 40px;
+  font-style: un;
+  margin: 0 auto 6rem auto;
+  }
+
+  .grid-projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+
+  }
+
+  .project-image{
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+  }
